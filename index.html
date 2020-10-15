@@ -1,3 +1,12 @@
+<!--
+ Link to this assignment: https://asergienk.github.io/MyPage/
+ 91.61 Assignment: Enhancing my WebPage design with Bootstrap
+ Anna Sergienko, UMass Lowell Computer Science, anna_sergienko@student.uml.edu
+ Copyright (c) 2020 by Anna Sergienko. All rights reserved. May be
+ freely copied or excerpted for educational purposes with credit to the author.
+ updated by AS on October 13, 2020 at 11:23 PM
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,7 +26,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Site CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="css/responsive.css">
     <!-- Custom CSS -->
@@ -74,6 +83,7 @@
       </div>
     </nav>
 
+  <!-- Home section.-->
 	<section id="home" class="main-banner parallaxie" style="background: url('uploads/keyboard1.jpeg')">
 		<div class="heading">
 			<h1>hello i'm Anna</h1>
@@ -115,9 +125,12 @@
         </path>
     </svg>
 
+
+  <!-- Section about me.-->
     <div id="about" class="section wb">
         <div class="container">
             <div class="row">
+              <!-- In the class row each column will be 6 columns wide at medium and large size.-->
                 <div class="col-md-6">
                     <div class="message-box">
                         <h2>About me.</h2>
@@ -136,6 +149,9 @@
         </div><!-- end container -->
     </div><!-- end section -->
 
+
+
+    <!-- Work Experience Section. Has a work title, length of employment and responsibilities.-->
     <div id="work" class="section lb">
         <div class="container">
             <div class="section-title text-left">
@@ -144,6 +160,7 @@
             </div><!-- end title -->
 
             <div class="row">
+              <!-- In the class row each column will be 4 columns wide at medium and large size.-->
 				<div class="col-md-4">
                     <div class="work-inner-box">
 						<div class="ser-icon">
@@ -190,16 +207,23 @@
         </div><!-- end container -->
     </div><!-- end section -->
 
+
+
+  <!-- Section that has links to my GUI class projects.
+  There is a tab that has all the projects shown. And there are tabs for
+  each separate hw. Each hw entry has a link to view the project if
+  the user hovers over the image.-->
 	<div id="projects" class="section lb">
 		<div class="container">
 			<div class="section-title text-left">
                 <h3>Projects</h3>
-                <p>Here are my GUI class projects. Go ahead and check them out :) </p>
+                <p>Here are my GUI class projects. Go ahead and check them out :)</p>
             </div><!-- end title -->
 
 			<div class="gallery-menu row">
 				<div class="col-md-12">
 					<div class="button-group filter-button-group text-left">
+            <!-- Filters for the tabs.-->
 						<button class="active" data-filter="*">All</button>
 						<button data-filter=".gal_a">HW1</button>
 						<button data-filter=".gal_b">HW2</button>
@@ -213,6 +237,8 @@
 				</div>
 			</div>
 
+      <!-- In the class row each column will be 4 columns wide at medium and large size,
+      6 columns wide at small size.-->
 			<div class="gallery-list row">
 				<div class="col-md-4 col-sm-6 gallery-grid gal_a">
 					<div class="gallery-single fix">
@@ -236,7 +262,7 @@
 					<div class="gallery-single fix">
 						<img src="uploads/gallery_img-03.jpg" class="img-fluid" alt="Image">
             <div class="img-overlay">
-              <a href="#" class="btn-light-center" target="_blank">View Project</a>
+              <a href="https://asergienk.github.io/MyPage/" class="btn-light-center" target="_blank">View Project</a>
             </div>
 					</div>
 				</div>
@@ -281,6 +307,9 @@
 		</div>
 	</div>
 
+  <!-- Section that shows some places that I have visited.
+  Introduced as 4 sections each having an image part and a text part.
+  Image is on the top and the text description is in the bottom.-->
 	<div id="blog" class="section lb">
 		<div class="container">
 			<div class="section-title text-left">
@@ -288,6 +317,8 @@
                 <p>Here I will share some places I have visited and some information about them.</p>
             </div><!-- end title -->
 
+    <!-- In the class row each column will be 4 columns wide at medium size,
+    6 columns wide at small size and 4 columns wide at large size.-->
 			<div class="row">
 				<div class="col-md-4 col-sm-6 col-lg-4">
 					<div class="post-box">
@@ -358,6 +389,9 @@
 		</div>
 	</div>
 
+
+  <!-- Section to contact me. Introduced as a form that has an name, email, phone
+  and message entries. -->
     <div id="contact" class="section db">
         <div class="container">
             <div class="section-title text-left">
@@ -404,6 +438,8 @@
         </div><!-- end container -->
     </div><!-- end section -->
 
+
+    <!-- Footer section. Contains a nav bar and a copy right information.  -->
     <div class="copyrights">
         <div class="container">
             <div class="footer-distributed">
